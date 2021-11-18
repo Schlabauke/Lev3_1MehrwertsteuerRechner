@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+    font-size: 14px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500&display=swap');
+h1 {
+    margin:1vh 5.2vw;
+}
+form {
+    border: 2px solid black;
+    border-radius: 5px;
+    width:30.3vw;
+    margin-left: 5vw;
+}
+section {
+    margin-top: 1vh;
+    background-color: #F3F6F8;
+    padding:5px 0 10px 5px;
+    width:30vw;
+}
+section:nth-of-type(4){
+    border-top: 2px solid #1c5a8a;
+}
+h2 {
+    font-size: 15px;
+    margin:2vh 5px;
+    font-weight: normal;
+}
+input, label {
+    margin:1vh 5px;
+}
+#input {
+    padding: 1% 2%;
+   
+}
+button {
+   /*  margin:1vh 2vw; */
+    border:none;
+    border-radius: 5px;
+    background-color: #246CA3;
+   width:100%;
+    font-size: 20px;
+    color:whitesmoke;
+}
+button:hover {
+    border:2px solid #1c5a8a;
+}
